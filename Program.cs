@@ -12,3 +12,13 @@ void SecArray(string[] array1, string[] array2)
         }
     }
 }
+void Print(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+SecArray(array1, array2);
+Print(array2);
